@@ -1,0 +1,212 @@
+:root{
+    --mainColor: #161439;
+    --secColor: #6D6C80;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.up .box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.up .one{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.info{
+    color: #E6EAEF;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.icon{
+    color: white;
+}
+.bar{
+    background-color: #161439;
+}
+.banner{
+    width: 100%; /* Set the width to 100% or any desired value */
+    height: 500px; /* Set a fixed height or use any desired value */
+    background-image: url(../images/Section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Optional: Cover the entire area of the banner */
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.prin{
+    color: var(--mainColor);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    font-style: normal;
+    margin-bottom: 12px;
+}
+.image{
+    align-items:flex-end;
+    display: flex;
+}
+.image img{
+    width: 100%;
+    max-width: 100%;
+}
+.image{
+    height: 500px;
+}
+.sec{
+    color: var(--secColor);
+    margin-bottom: 34px;
+}
+.register{
+    background-color: #5751E1;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white   ;
+    padding: 10px 30px;
+    box-shadow: 4px 6px 0px 0px #050071;
+    letter-spacing: 0.5px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text{
+    display: flex;
+}
+.l3eba{
+    color: #5751E1;
+    background-color: #EFEEFE;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 15px;
+}
+.title{
+    color: #161439;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.descTitle{
+    color: var(--secColor);
+}
+.form{
+    background-color: #F7F7FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+    width: 670px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.grr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.input label{
+    color: var(--mainColor);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+input{
+    width: 500px !important;
+    outline: none;
+    border: #E1E1E1 1px solid;
+    border-radius: 5px;
+    padding-left: 21px;
+    height: 50px;
+    max-width: 100%;
+}
+.vb{
+    display: flex;
+    justify-content: center;
+}
+select{
+    width: 500px !important;
+    outline: none;
+    border: #E1E1E1 1px solid;
+    border-radius: 5px;
+    padding-left: 21px;
+    height: 50px;
+    max-width: 100%;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #FFC224;
+    color: #000000;
+    outline: none;
+    border: 2px black solid;
+    box-shadow: 4px 4px 0px 0px #3D3D3D;
+    width: 500px;
+    max-width: 100%;
+    height: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.foot{
+    background-color: #1C1A4A;
+    color: #8C9AB4;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% !important;
+}
+
+.logos a{
+    color: #8C9AB4;
+    margin: 0;
+    padding: 0;
+}
+
+.bb{
+    display: flex;
+    align-items: center;
+    justify-content: s;
+    margin: 0;
+    padding: 0;
+}
